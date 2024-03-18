@@ -12,70 +12,54 @@
   <body>
     <!-- Navbar -->
     <header class="navbar">
-      <div class="top_nav">
-        <div class="container">
-          <a href="index.html" class="logo">
-            <img src="assets/img/svg/logo.svg" alt="" />
-          </a>
-          <p class="hide_mobile_text">
-            Minimally Invasive Treatment With <br />
-            Little or No Down time
-          </p>
-          <div class="btn_area">
-            <div class="phone_num">
-              <iconify-icon
-                icon="material-symbols:phone-in-talk-rounded"
-                width="30"
-                height="30"
-              >
-              </iconify-icon>
-              <p>833-787-6539</p>
+        <div class="top_nav">
+          <div class="container">
+            <a href="index.html" class="logo">
+              <img src="assets/img/svg/logo.svg" alt="" />
+            </a>
+            <p class="hide_mobile_text">
+              Minimally Invasive Treatment With <br />
+              Little or No Down time
+            </p>
+            <div class="btn_area">
+              <div class="phone_num">
+                <iconify-icon icon="material-symbols:phone-in-talk-rounded" width="30" height="30"></iconify-icon>
+                <p>833-787-6539</p>
+              </div>
+              <a href="#" class="btn">Book Appointment</a>
             </div>
-            <a href="#" class="btn">Book Appointment</a>
+            <button class="toggle_icon" onclick="toggleMainMenu()">
+              <iconify-icon class="icons" icon="mingcute:menu-fill" width="30" height="30"></iconify-icon>
+            </button>
           </div>
-          <button class="toggle_icon" onclick="toggleMainMenu()">
-            <iconify-icon
-              class="icons"
-              icon="mingcute:menu-fill"
-              width="30"
-              height="30"
-            ></iconify-icon>
-          </button>
         </div>
-      </div>
-      <div class="main_menu_area" id="main_menu_area">
-        <div class="container">
-          <ul class="menu_area">
-            <li class="nav_list">
-              <a href="index.html" class="nav_link">Home</a>
-            </li>
-            <li class="nav_list">
-              <a href="about.html" class="nav_link">About Us</a>
-            </li>
-            <li class="nav_list">
-              <a href="" class="nav_link">Treatment Services</a>
-            </li>
-            <li class="nav_list">
-              <a href="" class="nav_link">Diagnostic Testing</a>
-            </li>
-            <li class="nav_list"><a href="" class="nav_link">Locations</a></li>
-            <li class="nav_list"><a href="" class="nav_link">Media</a></li>
-            <li class="nav_list sub_menu_list" onclick="toggleMenu()">
-              Migraines
-              <iconify-icon
-                class="icons"
-                icon="icon-park-outline:down"
-              ></iconify-icon>
-              <ul class="sub_menu" id="sub_menu">
-                <li class="nav_list">
-                  <a href="" class="nav_link">Locations</a>
-                </li>
-              </ul>
-            </li>
-          </ul>
+        <div class="main_menu_area" id="main_menu_area">
+          <div class="container">
+            <ul class="menu_area">
+              <li class="nav_list"><a href="index.html" class="nav_link">Home</a></li>
+              <li class="nav_list"><a href="about.html" class="nav_link">About Us</a></li>
+              <li class="nav_list">
+                <a href="treatment_services.html" class="nav_link">Treatment Services</a>
+              </li>
+              <li class="nav_list">
+                <a href="diagnostic_testing.html" class="nav_link">Diagnostic Testing</a>
+              </li>
+              <li class="nav_list"><a href="#" class="nav_link">Locations</a></li>
+              <li class="nav_list"><a href="media.html" class="nav_link">Media</a></li>
+              <li class="nav_list"><a href="migraines.html" class="nav_link">Migraines</a></li>
+              <li class="nav_list sub_menu_list" onclick="toggleMenu()">
+                More Pages
+                <iconify-icon class="icons" icon="icon-park-outline:down"></iconify-icon>
+                <ul class="sub_menu" id="sub_menu">
+                  <li class="nav_list">
+                    <a href="contact_us.html" class="nav_link">Contact Us</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </header>
+      </header>
 
     <div class="main">
       <section class="about_banner">
