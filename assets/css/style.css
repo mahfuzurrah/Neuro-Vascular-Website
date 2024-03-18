@@ -682,6 +682,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active::after {
 
 .doctor_biography .tag_list {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 16px;
   margin-top: 24px;
