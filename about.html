@@ -1,189 +1,354 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- Navbar -->
     <header class="navbar">
-        <div class="top_nav">
-            <div class="container">
-                <a href="index.html" class="logo">
-                    <img src="assets/img/svg/logo.svg" alt="" />
-                </a>
-                <p class="hide_mobile_text">
-                    Minimally Invasive Treatment With <br />
-                    Little or No Down time
-                </p>
-                <div class="btn_area">
-                    <div class="phone_num">
-                        <iconify-icon icon="material-symbols:phone-in-talk-rounded" width="30" height="30">
-                        </iconify-icon>
-                        <p>833-787-6539</p>
-                    </div>
-                    <a href="#" class="btn">Book Appointment</a>
-                </div>
-                <button class="toggle_icon" onclick="toggleMainMenu()">
-                    <iconify-icon class="icons" icon="mingcute:menu-fill" width="30" height="30"></iconify-icon>
-                </button>
+      <div class="top_nav">
+        <div class="container">
+          <a href="index.html" class="logo">
+            <img src="assets/img/svg/logo.svg" alt="" />
+          </a>
+          <p class="hide_mobile_text">
+            Minimally Invasive Treatment With <br />
+            Little or No Down time
+          </p>
+          <div class="btn_area">
+            <div class="phone_num">
+              <iconify-icon
+                icon="material-symbols:phone-in-talk-rounded"
+                width="30"
+                height="30"
+              >
+              </iconify-icon>
+              <p>833-787-6539</p>
             </div>
+            <a href="#" class="btn">Book Appointment</a>
+          </div>
+          <button class="toggle_icon" onclick="toggleMainMenu()">
+            <iconify-icon
+              class="icons"
+              icon="mingcute:menu-fill"
+              width="30"
+              height="30"
+            ></iconify-icon>
+          </button>
         </div>
-        <div class="main_menu_area" id="main_menu_area">
-            <div class="container">
-                <ul class="menu_area">
-                    <li class="nav_list">
-                        <a href="index.html" class="nav_link">Home</a>
-                    </li>
-                    <li class="nav_list">
-                        <a href="about.html" class="nav_link">About Us</a>
-                    </li>
-                    <li class="nav_list">
-                        <a href="" class="nav_link">Treatment Services</a>
-                    </li>
-                    <li class="nav_list">
-                        <a href="" class="nav_link">Diagnostic Testing</a>
-                    </li>
-                    <li class="nav_list"><a href="" class="nav_link">Locations</a></li>
-                    <li class="nav_list"><a href="" class="nav_link">Media</a></li>
-                    <li class="nav_list sub_menu_list" onclick="toggleMenu()">
-                        Migraines
-                        <iconify-icon class="icons" icon="icon-park-outline:down"></iconify-icon>
-                        <ul class="sub_menu" id="sub_menu">
-                            <li class="nav_list">
-                                <a href="" class="nav_link">Locations</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
+      </div>
+      <div class="main_menu_area" id="main_menu_area">
+        <div class="container">
+          <ul class="menu_area">
+            <li class="nav_list">
+              <a href="index.html" class="nav_link">Home</a>
+            </li>
+            <li class="nav_list">
+              <a href="about.html" class="nav_link">About Us</a>
+            </li>
+            <li class="nav_list">
+              <a href="" class="nav_link">Treatment Services</a>
+            </li>
+            <li class="nav_list">
+              <a href="" class="nav_link">Diagnostic Testing</a>
+            </li>
+            <li class="nav_list"><a href="" class="nav_link">Locations</a></li>
+            <li class="nav_list"><a href="" class="nav_link">Media</a></li>
+            <li class="nav_list sub_menu_list" onclick="toggleMenu()">
+              Migraines
+              <iconify-icon
+                class="icons"
+                icon="icon-park-outline:down"
+              ></iconify-icon>
+              <ul class="sub_menu" id="sub_menu">
+                <li class="nav_list">
+                  <a href="" class="nav_link">Locations</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
         </div>
+      </div>
     </header>
 
     <div class="main">
-        <section class="about_banner">
-            <div class="container">
-                <div class="banner_text">
-                    <h2>About Us</h2>
-                    <p>
-                        Veritatis magnam suscipit ut. Et tempora voluptatem quo occaecati
-                        expedita molestiae vitae. Suscipit velit odit a mollitia id. Quia
-                        nostrum sit architecto et necessitatibus adipisci adipisci.
-                        Molestiae cumque accusantium fuga rerum neque quibusdam doloribus
-                        qui.
-                    </p>
-                </div>
+      <section class="about_banner">
+        <div class="container">
+          <div class="banner_text">
+            <h2>About Us</h2>
+            <p>
+              Veritatis magnam suscipit ut. Et tempora voluptatem quo occaecati
+              expedita molestiae vitae. Suscipit velit odit a mollitia id. Quia
+              nostrum sit architecto et necessitatibus adipisci adipisci.
+              Molestiae cumque accusantium fuga rerum neque quibusdam doloribus
+              qui.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="our_mission">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <img src="assets/img/our_miss.png" alt="" />
             </div>
-        </section>
-        <section>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <img src="assets/img/our_miss.png" alt="">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <div class="text_area">
+                <h2>Our Mission</h2>
+                <p>
+                  Veritatis magnam suscipit ut. Et tempora voluptatem quo
+                  occaecati expedita molestiae vitae. Suscipit velit odit a
+                  mollitia id. Quia nostrum sit architecto et necessitatibus
+                  adipisci adipisci. Molestiae cumque accusantium fuga rerum
+                  neque quibusdam doloribus qui.
+                </p>
+                <ul>
+                  <li>Veritatis magnam suscipit ut.</li>
+                  <li>
+                    Et tempora voluptatem quo occaecati expedita molestiae
+                    vitae.
+                  </li>
+                </ul>
+                <button class="btn">Book Appointment</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="doctor_biography">
+        <div class="container">
+          <div class="section_title">
+            <h3>
+              NeuroVascular Centers is lead By Dr. Wazni, a board certified
+              physician in LA County with fellowship training in:
+            </h3>
+            <div class="tag_list">
+              <a href="#" class="tag"><img src="assets/img/svg/Brain.svg" alt="" />Neurology</a>
+              <a href="#" class="tag"><img src="assets/img/svg/Neural circuit.svg" alt="" />Neurology</a>
+              <a href="#" class="tag"><img src="assets/img/svg/Brain_2.svg" alt="" />Neurology</a>
+              <a href="#" class="tag"><img src="assets/img/svg/Neurosurgery.svg" alt="" />Neurology</a>
+            </div>
+          </div>
+          <div class="row" style="margin-top: 100px">
+            <div class="col-lg-6">
+              <div class="text_area">
+                <h3>Dr. Wazni's Biography</h3>
+                <p>
+                  Dr. Wazni is a Cerebrovascular Neurologist with the expertise
+                  needed to diagnose and treat a wide range of blood vessel
+                  disorders in the brain and spine. He is the Medical director
+                  of Neuroendovascular Surgery at St. Mary Medical Center.
+                   After completing his medical studies, Dr. Wazni completed his
+                  internship at the Detroit Medical Center/Wayne State
+                  University School of Medicine in Detroit, Michigan and
+                  Neurology residency at Hofstra-Northwell-School of Medicine in
+                  Manhasset, New York. He then completed a one year ACGME
+                  accredited fellowship in Vascular Neurology followed by a two
+                  year UCNS accredited fellowship in Neurocritical Care at
+                  Froedtert & Medical College of Wisconsin.  He then continued
+                  his training at the Medical College of Wisconsin completing a
+                  two year ACGME equivalent fellowship in Neurointervention.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="doc_img_area">
+                <img src="assets/img/doctor_img.png" alt="" class="doctor_img" />
+              </div>
+            </div>
+            <div class="col-lg-12 mt-4">
+              <div class="text_area">
+                <p>
+                  At the Medical College of Wisconsin, Dr. Wazni has been the
+                  co-investigator on many multicenter, prospective, randomized
+                  control trials including SWIFT PRIME, THERAPY, SEPARATOR 3D,
+                  and SOCRATES. He is the co-author of the book chapter on
+                  Intra-arterial Therapy for Acute Ischemic Stroke, his most
+                  recent publication is on the treatment of anterior
+                  communicating artery aneurysm with the Pipeline Embolization
+                  Device. His current research interest involves the use of MR
+                  perfusion in identifying delayed vasospasm in patient with
+                  aneurysmal subarachnoid hemorrhage. His profession memberships
+                  include the Society of Vascular and Interventional Neurology,
+                  Society of Neurointerventional Surgery, Society of Critical
+                  Care Medicine, and the American Academy of Neurology.
+                </p>
+              </div>
+              <button class="btn mt-5">View Curriculum Vitae (CV)</button>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <section class="schedule_appointment" style="background: #103e61">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="appointment_img">
+                <img src="assets/img/Appointment.png" alt="" class="app_img" />
+                <img src="assets/img/svg/ex_bg.svg" alt="" class="ex_bg" />
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <form action="" class="appointment_form">
+                <h3>Schedule Your Appointment</h3>
+                <p>
+                  Leave your information and we will Schedule you within
+                  24-48 hours.
+                </p>
+                <div class="input_group_list">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Full Name</label>
+                    <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                      placeholder="Enter your name here" />
+                  </div>
+                  <div class="input_row">
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputPassword1"
+                        placeholder="Enter your email here" />
                     </div>
-                    <div class="col-lg-6"></div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Phone no</label>
+                      <input type="phone" class="form-control" id="exampleInputPassword1" placeholder="+562" />
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Enter your name here"
+                      rows="5"></textarea>
+                  </div>
+                  <button class="btn mt-4">Submit</button>
                 </div>
+              </form>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
     </div>
     <footer class="footer">
-        <div class="container">
-            <div class="section_title">
-                <h2>Office Address:</h2>
-            </div>
-            <div class="row office_card_group">
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="card">
-                        <iconify-icon class="icons" icon="mdi:location" width="30" height="30"></iconify-icon>
-                        <div class="address_area">
-                            <p class="title">Pasadena</p>
-                            <p class="address">
-                                675 S Arroyo Pkwy Suite 400 Pasadena, Ca, 91106
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="card">
-                        <iconify-icon class="icons" icon="mdi:location" width="30" height="30"></iconify-icon>
-                        <div class="address_area">
-                            <p class="title">Long Beach </p>
-                            <p class="address">
-                                1050 Linden Ave 2nd Floor, ​Long Beach, CA, 90813
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="card">
-                        <iconify-icon class="icons" icon="mdi:location" width="30" height="30"></iconify-icon>
-                        <div class="address_area">
-                            <p class="title">Orange County </p>
-                            <p class="address">
-                                1140 W La Veta Ave Ste 730 Orange, CA 92868
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <hr class="my-5" />
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="brand_area">
-                        <img src="./assets/img/svg//footer_logo.svg" alt="" />
-                        <div class="btn_area">
-                            <button class="btn_s">Log Into Patient Portal</button>
-                            <button class="btn">Insurances We Accept</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="footer_item">
-                        <h5>Contact Us</h5>
-                        <ul class="link_area">
-                            <li><a href="#">Tel: 833-787-6539</a></li>
-                            <li><a href="#">Fax: 888-571-6437</a></li>
-                            <li><a href="#">Email: neurovascularcenters@gmail.com</a></li>
-                            <div class="social_area">
-                                <p class="s_titel">Social Media:</p>
-                                <a href="#" class="social_icons">
-                                    <iconify-icon class="icons" icon="ic:twotone-facebook" width="30" height="30">
-                                    </iconify-icon>
-                                </a>
-                                <a href="#" class="social_icons">
-                                    <iconify-icon class="icons" icon="mdi:instagram" width="30" height="30">
-                                    </iconify-icon>
-                                </a>
-                            </div>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="footer_item">
-                        <h5>Menu</h5>
-                        <div class="d-flex justify-content-between flex-wrap gap-3">
-                            <ul class="link_area">
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Media</a></li>
-                                <li><a href="#">Migraines</a></li>
-                            </ul>
-                            <ul class="link_area">
-                                <li><a href="#">Treatment Services</a></li>
-                                <li><a href="#">Diagnostic Testing</a></li>
-                                <li><a href="#">Locations</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="section_title">
+          <h2>Office Address:</h2>
         </div>
+        <div class="row office_card_group">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+              <iconify-icon
+                class="icons"
+                icon="mdi:location"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <div class="address_area">
+                <p class="title">Pasadena</p>
+                <p class="address">
+                  675 S Arroyo Pkwy Suite 400 Pasadena, Ca, 91106
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+              <iconify-icon
+                class="icons"
+                icon="mdi:location"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <div class="address_area">
+                <p class="title">Long Beach </p>
+                <p class="address">
+                  1050 Linden Ave 2nd Floor, ​Long Beach, CA, 90813
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+              <iconify-icon
+                class="icons"
+                icon="mdi:location"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <div class="address_area">
+                <p class="title">Orange County </p>
+                <p class="address">
+                  1140 W La Veta Ave Ste 730 Orange, CA 92868
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="my-5" />
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="brand_area">
+              <img src="./assets/img/svg//footer_logo.svg" alt="" />
+              <div class="btn_area">
+                <button class="btn_s">Log Into Patient Portal</button>
+                <button class="btn">Insurances We Accept</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="footer_item">
+              <h5>Contact Us</h5>
+              <ul class="link_area">
+                <li><a href="#">Tel: 833-787-6539</a></li>
+                <li><a href="#">Fax: 888-571-6437</a></li>
+                <li><a href="#">Email: neurovascularcenters@gmail.com</a></li>
+                <div class="social_area">
+                  <p class="s_titel">Social Media:</p>
+                  <a href="#" class="social_icons">
+                    <iconify-icon
+                      class="icons"
+                      icon="ic:twotone-facebook"
+                      width="30"
+                      height="30"
+                    >
+                    </iconify-icon>
+                  </a>
+                  <a href="#" class="social_icons">
+                    <iconify-icon
+                      class="icons"
+                      icon="mdi:instagram"
+                      width="30"
+                      height="30"
+                    >
+                    </iconify-icon>
+                  </a>
+                </div>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="footer_item">
+              <h5>Menu</h5>
+              <div class="d-flex justify-content-between flex-wrap gap-3">
+                <ul class="link_area">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Media</a></li>
+                  <li><a href="#">Migraines</a></li>
+                </ul>
+                <ul class="link_area">
+                  <li><a href="#">Treatment Services</a></li>
+                  <li><a href="#">Diagnostic Testing</a></li>
+                  <li><a href="#">Locations</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
 
     <!-- JavaScript -->
@@ -194,6 +359,5 @@
     <script src="https://cdn.jsdelivr.net/npm/iconify-icon@2.0.0/dist/iconify-icon.min.js"></script>
     <script src="assets/js/slider.js"></script>
     <script src="assets/js/style.js"></script>
-</body>
-
+  </body>
 </html>

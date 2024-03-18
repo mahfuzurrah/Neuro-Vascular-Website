@@ -822,11 +822,37 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active::after {
   max-width: 550px;
 }
 
-.about_banner .banner_text  p,
-.about_banner .banner_text  h2 {
+.about_banner .banner_text p,
+.about_banner .banner_text h2 {
   color: var(--white-color);
 }
 
 .about_banner .banner_text p {
   margin-top: 20px;
+}
+
+.our_mission .text_area h2,
+.our_mission .text_area p,
+.our_mission .text_area ul {
+  margin-bottom: 20px;
+}
+
+.our_mission .text_area ul li {
+  list-style: disc;
+  margin-top: 10px;
+}
+
+/* ===================== Responsive Css ======================== */
+
+@media screen and (max-width: 768px) {
+  .our_mission img,
+  .appointment_img img.app_img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 678px) {
+  .navbar .btn_area .btn {
+    display: none;
+  }
 }
