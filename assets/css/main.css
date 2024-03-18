@@ -943,6 +943,12 @@ section {
   display: flex;
   gap: 70px;
 }
+.treatment-services-main .desktop-ts .ts-content-item {
+  display: none;
+}
+.treatment-services-main .desktop-ts .ts-content-item.active {
+  display: block;
+}
 @media (max-width: 1199.98px) {
   .treatment-services-main .desktop-ts {
     gap: 30px;

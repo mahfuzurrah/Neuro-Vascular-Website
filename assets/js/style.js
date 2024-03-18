@@ -28,3 +28,18 @@ function toggleMainMenu(event) {
     event.cancelBubble = true; // For older versions of IE
   }
 }
+
+// $(document).ready(function(){
+//   // Using jQuery to select the element with the class 'menu-item' and get its id
+//   var menuItemId = $('.desktop-ts .ts-menu .menu-item').attr('id');
+  
+//   // Printing the id to the console
+//   console.log(menuItemId);
+// });
+function onTSMenu() {
+  // Using jQuery to select the element with the class 'menu-item' and get its id
+  var menuItemId = $('.desktop-ts .ts-menu .menu-item').attr('id');
+  
+  // Printing the id to the console
+  console.log(menuItemId);
+}

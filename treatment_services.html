@@ -35,39 +35,39 @@
             <div class="desktop-ts">
                 <div class="ts-menu">
                     <ul>
-                        <li class="menu-item active">
+                        <li class="menu-item active" id="tsa-1" onclick="onTSMenu()">
                             <i class="fa-solid fa-chevron-right"></i>
                             Migraines
                         </li>
-                        <li class="menu-item">
+                        <li class="menu-item" id="tsa-2">
                             <i class="fa-solid fa-chevron-right"></i>
                             Cerebral Aneurysm
                         </li>
-                        <li class="menu-item">
+                        <li class="menu-item" id="tsa-3">
                             <i class="fa-solid fa-chevron-right"></i>
                             Arteriovenous Malformation
                         </li>
-                        <li class="menu-item">
+                        <li class="menu-item" id="tsa-4">
                             <i class="fa-solid fa-chevron-right"></i>
                             Dural Arteriovenous Fistula
                         </li>
-                        <li class="menu-item">
+                        <li class="menu-item" id="tsa-5">
                             <i class="fa-solid fa-chevron-right"></i>
                             Spinal Dural Arteriovenous Fistula (SDAVF)
                         </li>
-                        <li class="menu-item">
+                        <li class="menu-item" id="tsa-6">
                             <i class="fa-solid fa-chevron-right"></i>
                             Carotid Artery Atherosclerotic Disease
                         </li>
-                        <li class="menu-item">
+                        <li class="menu-item" id="tsa-7">
                             <i class="fa-solid fa-chevron-right"></i>
                             Intracranial Atherosclerosis Disease
                         </li>
-                        <li class="menu-item">
+                        <li class="menu-item" id="tsa-8">
                             <i class="fa-solid fa-chevron-right"></i>
                             Moya Moya Disease
                         </li>
-                        <li class="menu-item">
+                        <li class="menu-item" id="tsa-9">
                             <i class="fa-solid fa-chevron-right"></i>
                             Pseudotumor Cerebri
                         </li>
@@ -75,7 +75,22 @@
                 </div>
                 <div class="ts-content">
                     <!-- Cerebral Aneurysm -->
-                    <div class="ts-content-item">
+                    <div class="ts-content-item active" data-zb-target="tsa-1">
+                        <div class="ts-content-up">
+                            <div class="text-area">
+                                <h4>Migraines</h4>
+                                <p>Veritatis magnam suscipit ut. Et tempora voluptatem quo occaecati expedita molestiae
+                                    vitae. Suscipit velit odit a mollitia id. Quia nostrum sit architecto et
+                                    necessitatibus adipisci adipisci. Molestiae cumque accusantium fuga rerum neque
+                                    quibusdam doloribus qui.</p>
+                            </div>
+                            <div class="img-area">
+                                <img src="./assets/img/Migraines.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Cerebral Aneurysm -->
+                    <div class="ts-content-item" data-zb-target="tsa-2">
                         <div class="ts-content-up">
                             <div class="text-area">
                                 <h4>Cerebral Aneurysm</h4>
@@ -84,12 +99,20 @@
                                     called subarachnoid hemorrhage.</p>
                             </div>
                             <div class="img-area">
-                                <img src="./assets/img/Migraines.png" alt="">
+                                <img src="./assets/img/cerebral_aneurysm.png" alt="">
                             </div>
                         </div>
+                        <div class="ts-content-down">
+                            <a href="#" class="link">Subarachnoid hemorrhage</a> (SAH) refers to bleeding within the
+                            subarachnoid space, which is the area between the brain and the tissues that cover the
+                            brain. Vascular Neurologist and a Endovascular Neurosurgeon are doctors trained to determine
+                            if you are at risk for SAH. Endovascular repair is the least invasive way to treat and
+                            prevent future rupture. Our main focus is to evaluate and decide if treatment is necessary. 
+                        </div>
+
                     </div>
                     <!-- Arteriovenous Malformation -->
-                    <div class="ts-content-item">
+                    <div class="ts-content-item" data-zb-target="tsa-3">
                         <div class="ts-content-up">
                             <div class="text-area">
                                 <h4>Arteriovenous Malformation</h4>
@@ -111,7 +134,7 @@
                         </div>
                     </div>
                     <!-- Dural Arteriovenous Fistula -->
-                    <div class="ts-content-item">
+                    <div class="ts-content-item" data-zb-target="tsa-4">
                         <div class="ts-content-up">
                             <div class="text-area">
                                 <h4>Dural Arteriovenous Fistula</h4>
@@ -133,7 +156,7 @@
                         </div>
                     </div>
                     <!-- Spinal Dural Arteriovenous Fistula (SDAVF) -->
-                    <div class="ts-content-item">
+                    <div class="ts-content-item" data-zb-target="tsa-5">
                         <div class="ts-content-up">
                             <div class="text-area">
                                 <h4>Spinal Dural Arteriovenous Fistula (SDAVF)</h4>
@@ -155,7 +178,7 @@
                         </div>
                     </div>
                     <!-- Carotid Artery Atherosclerotic Disease -->
-                    <div class="ts-content-item">
+                    <div class="ts-content-item" data-zb-target="tsa-6">
                         <div class="ts-content-up">
                             <div class="text-area">
                                 <h4>Carotid Artery Atherosclerotic Disease</h4>
@@ -178,7 +201,7 @@
                         </div>
                     </div>
                     <!-- Intracranial Atherosclerosis Disease -->
-                    <div class="ts-content-item">
+                    <div class="ts-content-item" data-zb-target="tsa-7">
                         <div class="ts-content-up">
                             <div class="text-area">
                                 <h4>Intracranial Atherosclerosis Disease</h4>
@@ -201,7 +224,7 @@
                         </div>
                     </div>
                     <!-- Moya Moya Disease -->
-                    <div class="ts-content-item">
+                    <div class="ts-content-item" data-zb-target="tsa-8">
                         <div class="ts-content-up">
                             <div class="text-area">
                                 <h4>Moya Moya Disease</h4>
@@ -225,7 +248,7 @@
                         </div>
                     </div>
                     <!-- Pseudotumor Cerebri -->
-                    <div class="ts-content-item">
+                    <div class="ts-content-item" data-zb-target="tsa-9">
                         <div class="ts-content-up">
                             <div class="text-area">
                                 <h4>Pseudotumor Cerebri</h4>
