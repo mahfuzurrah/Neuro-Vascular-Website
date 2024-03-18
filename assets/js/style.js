@@ -9,6 +9,13 @@ $(".desktop-ts .ts-menu .menu-item").click(function () {
   console.log(id);
 }); 
 
+$(".product_video_btn").modalVideo({
+  youtube: {
+    controls: 0,
+    nocookie: true,
+  },
+});
+
 // function toggleMenu() {
 //   var menu = document.getElementById("sub_menu");
 //   menu.classList.toggle("show");
