@@ -547,7 +547,7 @@ section {
 }
 @media (max-width: 575.98px) {
   .media-main .second-card-video {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 .media-main .second-card-video .video-card {
@@ -603,6 +603,7 @@ section {
 }
 .media-main .video-card.vertical .banner-img {
   height: 280px;
+  object-fit: cover;
 }
 @media (max-width: 767.98px) {
   .media-main .video-card.vertical {

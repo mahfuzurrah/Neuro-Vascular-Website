@@ -25,6 +25,14 @@
   --font-bold: 700;
 }
 
+@media screen and (max-width: 576px){
+  :root {
+    --h1-font-size: 36px;
+    --h2-font-size: 30px;
+    --h3-font-size: 26px;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
