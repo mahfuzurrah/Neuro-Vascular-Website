@@ -12,54 +12,80 @@
   <body>
     <!-- Navbar -->
     <header class="navbar">
-        <div class="top_nav">
-          <div class="container">
-            <a href="index.html" class="logo">
-              <img src="assets/img/svg/logo.svg" alt="" />
-            </a>
-            <p class="hide_mobile_text">
-              Minimally Invasive Treatment With <br />
-              Little or No Down time
-            </p>
-            <div class="btn_area">
-              <div class="phone_num">
-                <iconify-icon icon="material-symbols:phone-in-talk-rounded" width="30" height="30"></iconify-icon>
-                <p>833-787-6539</p>
-              </div>
-              <a href="#" class="btn">Book Appointment</a>
+      <div class="top_nav">
+        <div class="container">
+          <a href="index.html" class="logo">
+            <img src="assets/img/svg/logo.svg" alt="" />
+          </a>
+          <p class="hide_mobile_text">
+            Minimally Invasive Treatment With <br />
+            Little or No Down time
+          </p>
+          <div class="btn_area">
+            <div class="phone_num">
+              <iconify-icon
+                icon="material-symbols:phone-in-talk-rounded"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <p>833-787-6539</p>
             </div>
-            <button class="toggle_icon" onclick="toggleMainMenu()">
-              <iconify-icon class="icons" icon="mingcute:menu-fill" width="30" height="30"></iconify-icon>
-            </button>
+            <a href="#" class="btn">Book Appointment</a>
           </div>
+          <button class="toggle_icon" onclick="toggleMainMenu()">
+            <iconify-icon
+              class="icons"
+              icon="mingcute:menu-fill"
+              width="30"
+              height="30"
+            ></iconify-icon>
+          </button>
         </div>
-        <div class="main_menu_area" id="main_menu_area">
-          <div class="container">
-            <ul class="menu_area">
-              <li class="nav_list"><a href="index.html" class="nav_link">Home</a></li>
-              <li class="nav_list"><a href="about.html" class="nav_link">About Us</a></li>
-              <li class="nav_list">
-                <a href="treatment_services.html" class="nav_link">Treatment Services</a>
-              </li>
-              <li class="nav_list">
-                <a href="diagnostic_testing.html" class="nav_link">Diagnostic Testing</a>
-              </li>
-              <li class="nav_list"><a href="#" class="nav_link">Locations</a></li>
-              <li class="nav_list"><a href="media.html" class="nav_link">Media</a></li>
-              <li class="nav_list"><a href="migraines.html" class="nav_link">Migraines</a></li>
-              <li class="nav_list sub_menu_list" onclick="toggleMenu()">
-                More Pages
-                <iconify-icon class="icons" icon="icon-park-outline:down"></iconify-icon>
-                <ul class="sub_menu" id="sub_menu">
-                  <li class="nav_list">
-                    <a href="contact_us.html" class="nav_link">Contact Us</a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
+      </div>
+      <div class="main_menu_area" id="main_menu_area">
+        <div class="container">
+          <ul class="menu_area">
+            <li class="nav_list">
+              <a href="index.html" class="nav_link">Home</a>
+            </li>
+            <li class="nav_list">
+              <a href="about.html" class="nav_link">About Us</a>
+            </li>
+            <li class="nav_list">
+              <a href="treatment_services.html" class="nav_link"
+                >Treatment Services</a
+              >
+            </li>
+            <li class="nav_list">
+              <a href="diagnostic_testing.html" class="nav_link"
+                >Diagnostic Testing</a
+              >
+            </li>
+            <li class="nav_list">
+              <a href="contact_us.html" class="nav_link">Contact Us</a>
+            </li>
+            <li class="nav_list">
+              <a href="media.html" class="nav_link">Media</a>
+            </li>
+            <li class="nav_list">
+              <a href="migraines.html" class="nav_link">Migraines</a>
+            </li>
+            <li class="nav_list sub_menu_list" onclick="toggleMenu()">
+              More Pages
+              <iconify-icon
+                class="icons"
+                icon="icon-park-outline:down"
+              ></iconify-icon>
+              <ul class="sub_menu" id="sub_menu">
+                <li class="nav_list">
+                  <a href="stroke.html" class="nav_link">Stroke</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
         </div>
-      </header>
+      </div>
+    </header>
 
     <div class="main">
       <section class="about_banner">
@@ -113,10 +139,24 @@
               physician in LA County with fellowship training in:
             </h3>
             <div class="tag_list">
-              <a href="#" class="tag"><img src="assets/img/svg/Brain.svg" alt="" />Neurology</a>
-              <a href="#" class="tag"><img src="assets/img/svg/Neural circuit.svg" alt="" />Neurology</a>
-              <a href="#" class="tag"><img src="assets/img/svg/Brain_2.svg" alt="" />Neurology</a>
-              <a href="#" class="tag"><img src="assets/img/svg/Neurosurgery.svg" alt="" />Neurology</a>
+              <a href="#" class="tag"
+                ><img src="assets/img/svg/Brain.svg" alt="" />Neurology</a
+              >
+              <a href="#" class="tag"
+                ><img
+                  src="assets/img/svg/Neural circuit.svg"
+                  alt=""
+                />Neurology</a
+              >
+              <a href="#" class="tag"
+                ><img src="assets/img/svg/Brain_2.svg" alt="" />Neurology</a
+              >
+              <a href="#" class="tag"
+                ><img
+                  src="assets/img/svg/Neurosurgery.svg"
+                  alt=""
+                />Neurology</a
+              >
             </div>
           </div>
           <div class="row" style="margin-top: 100px">
@@ -143,7 +183,11 @@
             </div>
             <div class="col-lg-6">
               <div class="doc_img_area">
-                <img src="assets/img/doctor_img.png" alt="" class="doctor_img" />
+                <img
+                  src="assets/img/doctor_img.png"
+                  alt=""
+                  class="doctor_img"
+                />
               </div>
             </div>
             <div class="col-lg-12 mt-4">
@@ -169,7 +213,7 @@
           </div>
         </div>
       </section>
-  
+
       <section class="schedule_appointment" style="background: #103e61">
         <div class="container">
           <div class="row">
@@ -189,24 +233,42 @@
                 <div class="input_group_list">
                   <div class="form-group">
                     <label for="exampleInputEmail1">Full Name</label>
-                    <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                      placeholder="Enter your name here" />
+                    <input
+                      type="name"
+                      class="form-control"
+                      id="exampleInputEmail1"
+                      aria-describedby="emailHelp"
+                      placeholder="Enter your name here"
+                    />
                   </div>
                   <div class="input_row">
                     <div class="form-group">
                       <label for="exampleInputPassword1">Email address</label>
-                      <input type="email" class="form-control" id="exampleInputPassword1"
-                        placeholder="Enter your email here" />
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="exampleInputPassword1"
+                        placeholder="Enter your email here"
+                      />
                     </div>
                     <div class="form-group">
                       <label for="exampleInputPassword1">Phone no</label>
-                      <input type="phone" class="form-control" id="exampleInputPassword1" placeholder="+562" />
+                      <input
+                        type="phone"
+                        class="form-control"
+                        id="exampleInputPassword1"
+                        placeholder="+562"
+                      />
                     </div>
                   </div>
                   <div class="form-group">
                     <label for="exampleFormControlTextarea1">Message</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Enter your name here"
-                      rows="5"></textarea>
+                    <textarea
+                      class="form-control"
+                      id="exampleFormControlTextarea1"
+                      placeholder="Enter your name here"
+                      rows="5"
+                    ></textarea>
                   </div>
                   <button class="btn mt-4">Submit</button>
                 </div>
@@ -326,7 +388,7 @@
                 <ul class="link_area">
                   <li><a href="#">Treatment Services</a></li>
                   <li><a href="#">Diagnostic Testing</a></li>
-                  <li><a href="#">Locations</a></li>
+                  <li><a href="#">Contact Us</a></li>
                 </ul>
               </div>
             </div>
