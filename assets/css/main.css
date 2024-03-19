@@ -834,6 +834,7 @@ section {
 }
 .diagnostic-testing-main .dt-card {
   margin-bottom: 100px;
+  margin-top: 50px;
 }
 @media (max-width: 767.98px) {
   .diagnostic-testing-main .dt-card {
