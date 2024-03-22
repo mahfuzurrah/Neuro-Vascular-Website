@@ -1,342 +1,280 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-  </head>
 
-  <body class="contact-us-main">
-    <header class="navbar">
-      <div class="top_nav">
-        <div class="container">
-          <a href="index.html" class="logo">
-            <img src="assets/img/svg/logo.svg" alt="" />
-          </a>
-          <p class="hide_mobile_text">
-            Minimally Invasive Treatment With <br />
-            Little or No Down time
-          </p>
-          <div class="btn_area">
-            <div class="phone_num">
-              <iconify-icon
-                icon="material-symbols:phone-in-talk-rounded"
-                width="30"
-                height="30"
-              ></iconify-icon>
-              <p>833-787-6539</p>
-            </div>
-            <a href="#" class="btn">Book Appointment</a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body class="contact-us-main">
+  <header class="navbar">
+    <div class="top_nav">
+      <div class="container">
+        <a href="index.html" class="logo">
+          <img src="assets/img/svg/logo.svg" alt="" />
+        </a>
+        <p class="hide_mobile_text">
+          Minimally Invasive Treatment With <br />
+          Little or No Down time
+        </p>
+        <div class="btn_area">
+          <div class="phone_num">
+            <iconify-icon icon="material-symbols:phone-in-talk-rounded" width="30" height="30"></iconify-icon>
+            <p>833-787-6539</p>
           </div>
-          <button class="toggle_icon" onclick="toggleMainMenu()">
-            <iconify-icon
-              class="icons"
-              icon="mingcute:menu-fill"
-              width="30"
-              height="30"
-            ></iconify-icon>
-          </button>
+          <a href="#" class="btn">Book Appointment</a>
         </div>
-      </div>
-      <div class="main_menu_area" id="main_menu_area">
-        <div class="container">
-          <ul class="menu_area">
-            <li class="nav_list">
-              <a href="index.html" class="nav_link">Home</a>
-            </li>
-            <li class="nav_list">
-              <a href="about.html" class="nav_link">About Us</a>
-            </li>
-            <li class="nav_list">
-              <a href="treatment_services.html" class="nav_link"
-                >Treatment Services</a
-              >
-            </li>
-            <li class="nav_list">
-              <a href="diagnostic_testing.html" class="nav_link"
-                >Diagnostic Testing</a
-              >
-            </li>
-            <li class="nav_list">
-              <a href="contact_us.html" class="nav_link">Contact Us</a>
-            </li>
-            <li class="nav_list">
-              <a href="media.html" class="nav_link">Media</a>
-            </li>
-            <li class="nav_list">
-              <a href="migraines.html" class="nav_link">Migraines</a>
-            </li>
-            <li class="nav_list sub_menu_list" onclick="toggleMenu()">
-              More Pages
-              <iconify-icon
-                class="icons"
-                icon="icon-park-outline:down"
-              ></iconify-icon>
-              <ul class="sub_menu" id="sub_menu">
-                <li class="nav_list">
-                  <a href="stroke.html" class="nav_link">Stroke</a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </header>
-
-    <!-- ++++++++++ Banner ++++++++++++ -->
-    <section class="banner">
-      <div class="container">
-        <div class="content">
-          <h1>Contact Us</h1>
-          <p>
-            We's re here for you when you need us! Call us to schedule an
-            appointment, or send us an email and see if you qualify for a free
-            second opinion.
-          </p>
-        </div>
-      </div>
-    </section>
-    <!-- ++++++++++ Map ++++++++++++ -->
-    <div class="map-area">
-      <div class="container">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7299.587306417306!2d90.3569511!3d23.8259356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1710779746625!5m2!1sen!2sbd"
-          width="100%"
-          height="450"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
+        <button class="toggle_icon" onclick="toggleMainMenu()">
+          <iconify-icon class="icons" icon="mingcute:menu-fill" width="30" height="30"></iconify-icon>
+        </button>
       </div>
     </div>
-    <!-- ++++++++++ Office Address ++++++++++++ -->
-    <section class="office-address">
+    <div class="main_menu_area" id="main_menu_area">
       <div class="container">
-        <h3>Office Address:</h3>
-        <div class="content-row">
-          <div class="item">
-            <h4>Pasadena</h4>
-            <p>675 S Arroyo Pkwy Ste 400, Pasadena, Ca, 91105</p>
-            <img src="./assets/img/office_address_1.png" alt="" />
+        <ul class="menu_area">
+          <li class="nav_list">
+            <a href="index.html" class="nav_link">Home</a>
+          </li>
+          <li class="nav_list">
+            <a href="about.html" class="nav_link">About Us</a>
+          </li>
+          <li class="nav_list">
+            <a href="treatment_services.html" class="nav_link">Treatment Services</a>
+          </li>
+          <li class="nav_list">
+            <a href="diagnostic_testing.html" class="nav_link">Diagnostic Testing</a>
+          </li>
+          <li class="nav_list">
+            <a href="contact_us.html" class="nav_link">Contact Us</a>
+          </li>
+          <li class="nav_list">
+            <a href="media.html" class="nav_link">Media</a>
+          </li>
+          <li class="nav_list">
+            <a href="migraines.html" class="nav_link">Migraines</a>
+          </li>
+          <li class="nav_list sub_menu_list" onclick="toggleMenu()">
+            More Pages
+            <iconify-icon class="icons" icon="icon-park-outline:down"></iconify-icon>
+            <ul class="sub_menu" id="sub_menu">
+              <li class="nav_list">
+                <a href="stroke.html" class="nav_link">Stroke</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <!-- ++++++++++ Banner ++++++++++++ -->
+  <section class="banner">
+    <div class="container">
+      <div class="content">
+        <h1>Contact Us</h1>
+        <p>
+          We's re here for you when you need us! Call us to schedule an
+          appointment, or send us an email and see if you qualify for a free
+          second opinion.
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- ++++++++++ Map ++++++++++++ -->
+  <div class="map-area">
+    <div class="container">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7299.587306417306!2d90.3569511!3d23.8259356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1710779746625!5m2!1sen!2sbd"
+        width="100%" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  <!-- ++++++++++ Office Address ++++++++++++ -->
+  <section class="office-address">
+    <div class="container">
+      <h3>Office Address:</h3>
+      <div class="content-row">
+        <div class="item">
+          <h4>Pasadena</h4>
+          <p>675 S Arroyo Pkwy Ste 400, Pasadena, Ca, 91105</p>
+          <img src="./assets/img/office_address_1.png" alt="" />
+        </div>
+        <div class="item">
+          <h4>Pasadena</h4>
+          <p>675 S Arroyo Pkwy Ste 400, Pasadena, Ca, 91105</p>
+          <img src="./assets/img/office_address_2.png" alt="" />
+        </div>
+        <div class="item">
+          <h4>Pasadena</h4>
+          <p>675 S Arroyo Pkwy Ste 400, Pasadena, Ca, 91105</p>
+          <img src="./assets/img/office_address_3.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ++++++++++ Contact Us ++++++++++++ -->
+  <section class="contact-us">
+    <div class="container">
+      <div class="contact-row-main">
+        <div class="col-main">
+          <h3>Contact Us</h3>
+          <p class="sub-title">
+            Fill out your name, phone number, and email and we will get back
+            to you within 24-48 hrs!
+          </p>
+          <ul class="icon-and-text">
+            <li><img src="./assets/img/icons/pace.svg" alt="" /></li>
+            <li><a href="#">Office Hours Monday-Friday 8am-5pm</a></li>
+          </ul>
+          <ul class="icon-and-text">
+            <li><img src="./assets/img/icons/phone_in_talk.svg" alt="" /></li>
+            <li><a href="#">833-787-6539</a></li>
+          </ul>
+          <ul class="icon-and-text">
+            <li><img src="./assets/img/icons/fax.svg" alt="" /></li>
+            <li><a href="#">888-571-6437</a></li>
+          </ul>
+          <ul class="icon-and-text">
+            <li><img src="./assets/img/icons/mail.svg" alt="" /></li>
+            <li><a href="#">help@neurovascularcenters.com</a></li>
+          </ul>
+        </div>
+        <div class="col-main">
+          <h3>Get In Touch</h3>
+          <form class="row g-3 mt-2">
+            <div class="col-md-12">
+              <label for="inputEmail4" class="form-label">Full Name</label>
+              <input type="text" class="form-control" id="inputEmail4" placeholder="Enter your name here" />
+            </div>
+            <div class="col-6">
+              <label for="inputAddress" class="form-label">Email</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="Enter your email here" />
+            </div>
+            <div class="col-6">
+              <label for="inputAddress2" class="form-label">Phone no</label>
+              <input type="email" class="form-control" id="inputAddress2" placeholder="+562" />
+            </div>
+            <div class="col-md-12">
+              <label for="inputZip" class="form-label">Message</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+              <!-- <input type="text" class="form-control form-control-big" id="inputZip" placeholder="Enter your name here"> -->
+            </div>
+
+            <div class="col-12">
+              <button type="submit" class="btn">Sign in</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="section_title">
+        <h2>Office Address:</h2>
+      </div>
+      <div class="row office_card_group">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card">
+            <iconify-icon class="icons" icon="mdi:location" width="30" height="30"></iconify-icon>
+            <div class="address_area">
+              <p class="title">Pasadena</p>
+              <p class="address">
+                675 S Arroyo Pkwy Suite 400 Pasadena, Ca, 91106
+              </p>
+            </div>
           </div>
-          <div class="item">
-            <h4>Pasadena</h4>
-            <p>675 S Arroyo Pkwy Ste 400, Pasadena, Ca, 91105</p>
-            <img src="./assets/img/office_address_2.png" alt="" />
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card">
+            <iconify-icon class="icons" icon="mdi:location" width="30" height="30"></iconify-icon>
+            <div class="address_area">
+              <p class="title">Long Beach </p>
+              <p class="address">
+                1050 Linden Ave 2nd Floor, ​Long Beach, CA, 90813
+              </p>
+            </div>
           </div>
-          <div class="item">
-            <h4>Pasadena</h4>
-            <p>675 S Arroyo Pkwy Ste 400, Pasadena, Ca, 91105</p>
-            <img src="./assets/img/office_address_3.png" alt="" />
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card">
+            <iconify-icon class="icons" icon="mdi:location" width="30" height="30"></iconify-icon>
+            <div class="address_area">
+              <p class="title">Orange County </p>
+              <p class="address">
+                1140 W La Veta Ave Ste 730 Orange, CA 92868
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- ++++++++++ Contact Us ++++++++++++ -->
-    <section class="contact-us">
-      <div class="container">
-        <div class="contact-row-main">
-          <div class="col-main">
-            <h3>Contact Us</h3>
-            <p class="sub-title">
-              Fill out your name, phone number, and email and we will get back
-              to you within 24-48 hrs!
-            </p>
-            <ul class="icon-and-text">
-              <li><img src="./assets/img/icons/pace.svg" alt="" /></li>
-              <li><a href="#">Office Hours Monday-Friday 8am-5pm</a></li>
-            </ul>
-            <ul class="icon-and-text">
-              <li><img src="./assets/img/icons/phone_in_talk.svg" alt="" /></li>
-              <li><a href="#">833-787-6539</a></li>
-            </ul>
-            <ul class="icon-and-text">
-              <li><img src="./assets/img/icons/fax.svg" alt="" /></li>
-              <li><a href="#">888-571-6437</a></li>
-            </ul>
-            <ul class="icon-and-text">
-              <li><img src="./assets/img/icons/mail.svg" alt="" /></li>
-              <li><a href="#">help@neurovascularcenters.com</a></li>
-            </ul>
-          </div>
-          <div class="col-main">
-            <h3>Get In Touch</h3>
-            <form class="row g-3 mt-2">
-              <div class="col-md-12">
-                <label for="inputEmail4" class="form-label">Full Name</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="inputEmail4"
-                  placeholder="Enter your name here"
-                />
-              </div>
-              <div class="col-6">
-                <label for="inputAddress" class="form-label">Email</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="inputAddress"
-                  placeholder="Enter your email here"
-                />
-              </div>
-              <div class="col-6">
-                <label for="inputAddress2" class="form-label">Phone no</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="inputAddress2"
-                  placeholder="+562"
-                />
-              </div>
-              <div class="col-md-12">
-                <label for="inputZip" class="form-label">Message</label>
-                <textarea
-                  class="form-control"
-                  id="exampleFormControlTextarea1"
-                  rows="4"
-                ></textarea>
-                <!-- <input type="text" class="form-control form-control-big" id="inputZip" placeholder="Enter your name here"> -->
-              </div>
-
-              <div class="col-12">
-                <button type="submit" class="btn">Sign in</button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <footer class="footer">
-      <div class="container">
-        <div class="section_title">
-          <h2>Office Address:</h2>
-        </div>
-        <div class="row office_card_group">
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <div class="card">
-              <iconify-icon
-                class="icons"
-                icon="mdi:location"
-                width="30"
-                height="30"
-              ></iconify-icon>
-              <div class="address_area">
-                <p class="title">Pasadena</p>
-                <p class="address">
-                  675 S Arroyo Pkwy Suite 400 Pasadena, Ca, 91106
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <div class="card">
-              <iconify-icon
-                class="icons"
-                icon="mdi:location"
-                width="30"
-                height="30"
-              ></iconify-icon>
-              <div class="address_area">
-                <p class="title">Long Beach </p>
-                <p class="address">
-                  1050 Linden Ave 2nd Floor, ​Long Beach, CA, 90813
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <div class="card">
-              <iconify-icon
-                class="icons"
-                icon="mdi:location"
-                width="30"
-                height="30"
-              ></iconify-icon>
-              <div class="address_area">
-                <p class="title">Orange County </p>
-                <p class="address">
-                  1140 W La Veta Ave Ste 730 Orange, CA 92868
-                </p>
-              </div>
+      <hr class="my-5" />
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="brand_area">
+            <img src="./assets/img/svg//footer_logo.svg" alt="" />
+            <div class="btn_area">
+              <button class="btn_s">Log Into Patient Portal</button>
+              <button class="btn">Insurances We Accept</button>
             </div>
           </div>
         </div>
-        <hr class="my-5" />
-        <div class="row">
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <div class="brand_area">
-              <img src="./assets/img/svg//footer_logo.svg" alt="" />
-              <div class="btn_area">
-                <button class="btn_s">Log Into Patient Portal</button>
-                <button class="btn">Insurances We Accept</button>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="footer_item">
+            <h5>Contact Us</h5>
+            <ul class="link_area">
+              <li><a href="#">Tel: 833-787-6539</a></li>
+              <li><a href="#">Fax: 888-571-6437</a></li>
+              <li><a href="#">Email: neurovascularcenters@gmail.com</a></li>
+              <div class="social_area">
+                <p class="s_titel">Social Media:</p>
+                <a href="#" class="social_icons">
+                  <iconify-icon class="icons" icon="ic:twotone-facebook" width="30" height="30"></iconify-icon>
+                </a>
+                <a href="#" class="social_icons">
+                  <iconify-icon class="icons" icon="mdi:instagram" width="30" height="30"></iconify-icon>
+                </a>
               </div>
-            </div>
+            </ul>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <div class="footer_item">
-              <h5>Contact Us</h5>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="footer_item">
+            <h5>Menu</h5>
+            <div class="d-flex justify-content-between flex-wrap gap-3">
               <ul class="link_area">
-                <li><a href="#">Tel: 833-787-6539</a></li>
-                <li><a href="#">Fax: 888-571-6437</a></li>
-                <li><a href="#">Email: neurovascularcenters@gmail.com</a></li>
-                <div class="social_area">
-                  <p class="s_titel">Social Media:</p>
-                  <a href="#" class="social_icons">
-                    <iconify-icon
-                      class="icons"
-                      icon="ic:twotone-facebook"
-                      width="30"
-                      height="30"
-                    ></iconify-icon>
-                  </a>
-                  <a href="#" class="social_icons">
-                    <iconify-icon
-                      class="icons"
-                      icon="mdi:instagram"
-                      width="30"
-                      height="30"
-                    ></iconify-icon>
-                  </a>
-                </div>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Media</a></li>
+                <li><a href="#">Migraines</a></li>
+              </ul>
+              <ul class="link_area">
+                <li><a href="#">Treatment Services</a></li>
+                <li><a href="#">Diagnostic Testing</a></li>
+                <li><a href="#">Contact Us</a></li>
               </ul>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <div class="footer_item">
-              <h5>Menu</h5>
-              <div class="d-flex justify-content-between flex-wrap gap-3">
-                <ul class="link_area">
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">About Us</a></li>
-                  <li><a href="#">Media</a></li>
-                  <li><a href="#">Migraines</a></li>
-                </ul>
-                <ul class="link_area">
-                  <li><a href="#">Treatment Services</a></li>
-                  <li><a href="#">Diagnostic Testing</a></li>
-                  <li><a href="#">Contact Us</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
-    </footer>
+    </div>
+  </footer>
 
-    <!-- JavaScript -->
-    <script src="assets/js/jquery-3.7.1.min.js"></script>
-    <script src="assets/js/swiper-bundle.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@2.0.0/dist/iconify-icon.min.js"></script>
-    <script src="assets/js/slider.js"></script>
-    <script src="assets/js/style.js"></script>
-  </body>
+  <!-- JavaScript -->
+  <script src="assets/js/jquery-3.7.1.min.js"></script>
+  <script src="assets/js/swiper-bundle.min.js"></script>
+  <script src="assets/js/jquery-modal-video.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/iconify-icon@2.0.0/dist/iconify-icon.min.js"></script>
+  <script src="assets/js/slider.js"></script>
+  <script src="assets/js/style.js"></script>
+</body>
+
 </html>

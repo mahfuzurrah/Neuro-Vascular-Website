@@ -9,12 +9,14 @@ $(".desktop-ts .ts-menu .menu-item").click(function () {
   console.log(id);
 }); 
 
-$(".product_video_btn").modalVideo({
-  youtube: {
-    controls: 0,
-    nocookie: true,
-  },
-});
+  // Initialize modal video plugin for product video buttons
+  $(".product_video_btn").modalVideo({
+    youtube: {
+      controls: 0,
+      nocookie: true,
+    },
+  });
+
 
 function toggleMenu() {
   var menu = document.getElementById("sub_menu");
@@ -54,6 +56,7 @@ $(document).ready(function(){
   // Printing the id to the console
   console.log(menuItemId);
 });
+
 function onTSMenu() {
   // Using jQuery to select the element with the class 'menu-item' and get its id
   var menuItemId = $('.desktop-ts .ts-menu .menu-item').attr('id');
