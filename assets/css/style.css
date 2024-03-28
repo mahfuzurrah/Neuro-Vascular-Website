@@ -840,6 +840,13 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active::after {
   .appointment_img img.app_img {
     width: 100%;
   }
+
+  .about_banner,
+  .hero_banner{
+    display: block;
+    height: 100%;
+  }
+
 }
 
 @media screen and (max-width: 678px) {
