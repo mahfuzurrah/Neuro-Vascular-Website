@@ -596,6 +596,11 @@ section {
   height: 100%;
 }
 
+.our_cliens .card:hover .read_more_btn {
+  color: var(--primary-color);
+  transition: all 0.3s ease-in-out;
+}
+
 .our_cliens .card .user_info {
   display: flex;
   gap: 16px;
@@ -842,11 +847,10 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active::after {
   }
 
   .about_banner,
-  .hero_banner{
+  .hero_banner {
     display: block;
     height: 100%;
   }
-
 }
 
 @media screen and (max-width: 678px) {
